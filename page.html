@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="01.css" />
+	</head>
+	
+	<body onload="init();">
+  <button class="btn" onclick="init();">Nouvelle Partie</button>
+  <div id="plateau">
+    <div class="ligne">
+      <div class="case" onClick="userClick(0,0)"></div>
+      <div class="case" onClick="userClick(0,1)"></div>
+      <div class="case" onClick="userClick(0,2)"></div>
+      <div class="case" onClick="userClick(0,3)"></div>
+      <div class="case" onClick="userClick(0,4)"></div>
+      <div class="case" onClick="userClick(0,5)"></div>
+      <div class="case" onClick="userClick(0,6)"></div>
+      <div class="case" onClick="userClick(0,7)"></div>
+      <div class="case" onClick="userClick(0,8)"></div>
+      <div class="case" onClick="userClick(0,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(1,0)"></div>
+      <div class="case" onClick="userClick(1,1)"></div>
+      <div class="case" onClick="userClick(1,2)"></div>
+      <div class="case" onClick="userClick(1,3)"></div>
+      <div class="case" onClick="userClick(1,4)"></div>
+      <div class="case" onClick="userClick(1,5)"></div>
+      <div class="case" onClick="userClick(1,6)"></div>
+      <div class="case" onClick="userClick(1,7)"></div>
+      <div class="case" onClick="userClick(1,8)"></div>
+      <div class="case" onClick="userClick(1,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(2,0)"></div>
+      <div class="case" onClick="userClick(2,1)"></div>
+      <div class="case" onClick="userClick(2,2)"></div>
+      <div class="case" onClick="userClick(2,3)"></div>
+      <div class="case" onClick="userClick(2,4)"></div>
+      <div class="case" onClick="userClick(2,5)"></div>
+      <div class="case" onClick="userClick(2,6)"></div>
+      <div class="case" onClick="userClick(2,7)"></div>
+      <div class="case" onClick="userClick(2,8)"></div>
+      <div class="case" onClick="userClick(2,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(3,0)"></div>
+      <div class="case" onClick="userClick(3,1)"></div>
+      <div class="case" onClick="userClick(3,2)"></div>
+      <div class="case" onClick="userClick(3,3)"></div>
+      <div class="case" onClick="userClick(3,4)"></div>
+      <div class="case" onClick="userClick(3,5)"></div>
+      <div class="case" onClick="userClick(3,6)"></div>
+      <div class="case" onClick="userClick(3,7)"></div>
+      <div class="case" onClick="userClick(3,8)"></div>
+      <div class="case" onClick="userClick(3,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(4,0)"></div>
+      <div class="case" onClick="userClick(4,1)"></div>
+      <div class="case" onClick="userClick(4,2)"></div>
+      <div class="case" onClick="userClick(4,3)"></div>
+      <div class="case" onClick="userClick(4,4)"></div>
+      <div class="case" onClick="userClick(4,5)"></div>
+      <div class="case" onClick="userClick(4,6)"></div>
+      <div class="case" onClick="userClick(4,7)"></div>
+      <div class="case" onClick="userClick(4,8)"></div>
+      <div class="case" onClick="userClick(4,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(5,0)"></div>
+      <div class="case" onClick="userClick(5,1)"></div>
+      <div class="case" onClick="userClick(5,2)"></div>
+      <div class="case" onClick="userClick(5,3)"></div>
+      <div class="case" onClick="userClick(5,4)"></div>
+      <div class="case" onClick="userClick(5,5)"></div>
+      <div class="case" onClick="userClick(5,6)"></div>
+      <div class="case" onClick="userClick(5,7)"></div>
+      <div class="case" onClick="userClick(5,8)"></div>
+      <div class="case" onClick="userClick(5,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(6,0)"></div>
+      <div class="case" onClick="userClick(6,1)"></div>
+      <div class="case" onClick="userClick(6,2)"></div>
+      <div class="case" onClick="userClick(6,3)"></div>
+      <div class="case" onClick="userClick(6,4)"></div>
+      <div class="case" onClick="userClick(6,5)"></div>
+      <div class="case" onClick="userClick(6,6)"></div>
+      <div class="case" onClick="userClick(6,7)"></div>
+      <div class="case" onClick="userClick(6,8)"></div>
+      <div class="case" onClick="userClick(6,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(7,0)"></div>
+      <div class="case" onClick="userClick(7,1)"></div>
+      <div class="case" onClick="userClick(7,2)"></div>
+      <div class="case" onClick="userClick(7,3)"></div>
+      <div class="case" onClick="userClick(7,4)"></div>
+      <div class="case" onClick="userClick(7,5)"></div>
+      <div class="case" onClick="userClick(7,6)"></div>
+      <div class="case" onClick="userClick(7,7)"></div>
+      <div class="case" onClick="userClick(7,8)"></div>
+      <div class="case" onClick="userClick(7,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(8,0)"></div>
+      <div class="case" onClick="userClick(8,1)"></div>
+      <div class="case" onClick="userClick(8,2)"></div>
+      <div class="case" onClick="userClick(8,3)"></div>
+      <div class="case" onClick="userClick(8,4)"></div>
+      <div class="case" onClick="userClick(8,5)"></div>
+      <div class="case" onClick="userClick(8,6)"></div>
+      <div class="case" onClick="userClick(8,7)"></div>
+      <div class="case" onClick="userClick(8,8)"></div>
+      <div class="case" onClick="userClick(8,9)"></div>
+    </div>
+    <div class="ligne">
+      <div class="case" onClick="userClick(9,0)"></div>
+      <div class="case" onClick="userClick(9,1)"></div>
+      <div class="case" onClick="userClick(9,2)"></div>
+      <div class="case" onClick="userClick(9,3)"></div>
+      <div class="case" onClick="userClick(9,4)"></div>
+      <div class="case" onClick="userClick(9,5)"></div>
+      <div class="case" onClick="userClick(9,6)"></div>
+      <div class="case" onClick="userClick(9,7)"></div>
+      <div class="case" onClick="userClick(9,8)"></div>
+      <div class="case" onClick="userClick(9,9)"></div>
+    </div>
+  </div>
+  
+  <div id="indic" style="background-color:grey; width:200px;">
+	<p style="color:green">Sol : Vert</p>
+	<p><b>Mur : Noir</b></p>
+	<p style="color:yellow">Arme : Jaune</p>
+	<p style="color:red">Joueur 1: Rouge</p>
+	<p style="color:blue">Joueur 2: Bleu</p>
+	<p style="color:black" id="playertour"></p>
+</div>
+</body>
+	<script src="grille.js"></script>
+</html>

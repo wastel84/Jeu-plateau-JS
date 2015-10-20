@@ -1,0 +1,29 @@
+.btn {
+  height: 50px;
+  width: 250px;
+  margin: 10px 0;
+  display:block;
+}
+
+.ligne {
+	clear: left;
+	height: 50px;
+}
+
+.case {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #000;
+	float: left;
+}
+
+#plateau
+{
+	display:inline-block;
+}
+
+#indic
+{
+	display:inline-block;
+}
